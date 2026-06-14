@@ -51,6 +51,11 @@
   "about": {
     "title": "About PT XERANET",
     "subtitle": "Get to know our journey, vision, mission, and the professional team behind our successful technology solutions.",
+    "header": {
+      "badge": "Company Profile",
+      "title": "About",
+      "titleHighlight": "XERANET"
+    },
     "story": {
       "title": "Our Journey",
       "p1": "Founded with a vision to democratize access to high-quality technology, PT XERANET has grown from a local network service provider into a national-scale digital transformation partner.",
@@ -88,48 +93,101 @@
   "services": {
     "title": "Our Services",
     "subtitle": "A selection of IT solutions and network infrastructure packages tailored to your business needs.",
+    "header": {
+      "badge": "Complete Services",
+      "title": "Services &",
+      "titleHighlight": "Pricing Plans"
+    },
     "list": {
       "mobile": {
         "title": "Mobile App Development",
         "desc": "Performant, secure, and scalable Android & iOS mobile applications. We ensure intuitive UI and seamless user experience.",
-        "features": ["Android & iOS Native", "React Native / Flutter", "Push Notifications", "Offline Support", "App Store Publishing"],
+        "features": [
+          "Android & iOS Native",
+          "React Native / Flutter",
+          "Push Notifications",
+          "Offline Support",
+          "App Store Publishing"
+        ],
         "tag": "Most Popular"
       },
       "web": {
         "title": "Website Development",
         "desc": "From company profiles to complex SaaS platforms — we build with modern, fast, and SEO-friendly technologies.",
-        "features": ["Landing Page & Company Profile", "E-Commerce Platforms", "Web / SaaS Applications", "SEO Optimization", "CMS Integration"]
+        "features": [
+          "Landing Page & Company Profile",
+          "E-Commerce Platforms",
+          "Web / SaaS Applications",
+          "SEO Optimization",
+          "CMS Integration"
+        ]
       },
       "enterprise": {
         "title": "Custom Enterprise Systems",
         "desc": "Transform business operations with custom-designed systems tailored to workflows — from ERP to integrated platforms.",
-        "features": ["ERP & CRM Systems", "Inventory Management", "Workflow Automation", "API Integration", "Data Analytics Dashboards"]
+        "features": [
+          "ERP & CRM Systems",
+          "Inventory Management",
+          "Workflow Automation",
+          "API Integration",
+          "Data Analytics Dashboards"
+        ]
       },
       "uiux": {
         "title": "UI/UX Design",
         "desc": "Beautiful, intuitive, and user-centered digital product design. From wireframes to production-ready interactive prototypes.",
-        "features": ["User Research", "Wireframing & Prototyping", "Design Systems", "Usability Testing", "Figma Handoff"]
+        "features": [
+          "User Research",
+          "Wireframing & Prototyping",
+          "Design Systems",
+          "Usability Testing",
+          "Figma Handoff"
+        ]
       },
       "cloud": {
         "title": "Cloud & DevOps",
         "desc": "Reliable, scalable, and secure cloud infrastructure. CI/CD pipeline, containerization, and monitoring for stable production.",
-        "features": ["AWS / GCP / Azure Setup", "Docker & Kubernetes", "CI/CD Pipeline", "Auto Scaling", "24/7 Monitoring"]
+        "features": [
+          "AWS / GCP / Azure Setup",
+          "Docker & Kubernetes",
+          "CI/CD Pipeline",
+          "Auto Scaling",
+          "24/7 Monitoring"
+        ]
       },
       "consulting": {
         "title": "IT Consulting",
         "desc": "Strategic consulting for your business digital transformation. We help determine the best technology architecture, stack, and roadmap.",
-        "features": ["Tech Stack Assessment", "Digital Transformation Roadmap", "Architecture Planning", "Code Review", "Team Mentoring"]
+        "features": [
+          "Tech Stack Assessment",
+          "Digital Transformation Roadmap",
+          "Architecture Planning",
+          "Code Review",
+          "Team Mentoring"
+        ]
       },
       "cyber": {
         "title": "Cyber Security",
         "desc": "Protect your business digital assets from cyber threats with multi-layered security solutions — from security audits to incident response.",
-        "features": ["Penetration Testing", "System Security Audits", "DDoS Protection", "Data Encryption", "Cyber Incident Response"],
+        "features": [
+          "Penetration Testing",
+          "System Security Audits",
+          "DDoS Protection",
+          "Data Encryption",
+          "Cyber Incident Response"
+        ],
         "tag": "New"
       },
       "network": {
         "title": "Network & Infrastructure",
         "desc": "Design and implementation of reliable, fast, and secure network infrastructure for small business to enterprise needs.",
-        "features": ["Network Topology Design", "Router & Switch Configuration", "VPN & Firewall", "Network Monitoring", "Infrastructure Maintenance"],
+        "features": [
+          "Network Topology Design",
+          "Router & Switch Configuration",
+          "VPN & Firewall",
+          "Network Monitoring",
+          "Infrastructure Maintenance"
+        ],
         "tag": "New"
       }
     },
@@ -138,15 +196,34 @@
       "subtitle": "Execution Process",
       "desc": "We follow a structured process to ensure every project runs smoothly and on time.",
       "list": [
-        { "title": "Discovery", "desc": "We deeply understand your business needs, goals, and challenges." },
-        { "title": "Planning", "desc": "Drafting the roadmap, system architecture, and transparent timeline & cost estimates." },
-        { "title": "Development", "desc": "Iterative development with regular progress updates and periodic demos." },
-        { "title": "Testing & QA", "desc": "Thorough testing — functional, performance, security, and UX." },
-        { "title": "Launch", "desc": "Launch to production with zero-downtime and active monitoring." },
-        { "title": "Support", "desc": "After-launch support, maintenance, and further feature development." }
+        {
+          "title": "Discovery",
+          "desc": "We deeply understand your business needs, goals, and challenges."
+        },
+        {
+          "title": "Planning",
+          "desc": "Drafting the roadmap, system architecture, and transparent timeline & cost estimates."
+        },
+        {
+          "title": "Development",
+          "desc": "Iterative development with regular progress updates and periodic demos."
+        },
+        {
+          "title": "Testing & QA",
+          "desc": "Thorough testing — functional, performance, security, and UX."
+        },
+        {
+          "title": "Launch",
+          "desc": "Launch to production with zero-downtime and active monitoring."
+        },
+        {
+          "title": "Support",
+          "desc": "After-launch support, maintenance, and further feature development."
+        }
       ]
     },
     "pricing": {
+      "badge": "Pricing Plans",
       "title": "Service Pricing Plans",
       "subtitle": "Transparent, competitive, and designed to deliver maximum value to your business.",
       "tabB2B": "Business Needs (B2B)",
@@ -174,6 +251,11 @@
   "blog": {
     "title": "Insights & Tips",
     "subtitle": "Find the latest articles, tech guides, industry trends, and success stories from the XERANET team.",
+    "header": {
+      "badge": "Insights & Tips",
+      "title": "Articles &",
+      "titleHighlight": "News"
+    },
     "searchPlaceholder": "Search articles...",
     "noResults": "No articles match your search or filters.",
     "reset": "Reset Filters",
@@ -191,6 +273,11 @@
   "contact": {
     "title": "Contact Us",
     "subtitle": "Let's discuss how we can help accelerate your business through technology.",
+    "header": {
+      "badge": "Contact Us",
+      "title": "Discuss",
+      "titleHighlight": "Your Project"
+    },
     "info": {
       "title": "Contact Information",
       "address": "Office Address",

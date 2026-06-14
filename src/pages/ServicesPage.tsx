@@ -22,9 +22,9 @@ export const ServicesPage = () => {
 
       {/* Page Header */}
       <PageHeader
-        badge="Layanan Lengkap"
-        title="Layanan &"
-        titleHighlight="Paket Harga"
+        badge={t("services.header.badge")}
+        title={t("services.header.title")}
+        titleHighlight={t("services.header.titleHighlight")}
         description={t("services.subtitle")}
       />
 
@@ -39,7 +39,7 @@ export const ServicesPage = () => {
         <div className="container mx-auto px-4 md:px-8 max-w-6xl">
           <div className="text-center max-w-2xl mx-auto mb-16 flex flex-col gap-3">
             <span className="text-sm font-bold text-primary tracking-widest uppercase">
-              Pricing Plans
+              {t("services.pricing.badge")}
             </span>
             <h2 className="text-3xl font-extrabold text-slate-900 dark:text-white">
               {t("services.pricing.title")}

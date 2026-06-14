@@ -16,9 +16,9 @@ export const AboutPage = () => {
 
       {/* Page Header */}
       <PageHeader
-        badge="Company Profile"
-        title="Tentang"
-        titleHighlight="XERANET"
+        badge={t("about.header.badge")}
+        title={t("about.header.title")}
+        titleHighlight={t("about.header.titleHighlight")}
         description={t("about.subtitle")}
       />
 

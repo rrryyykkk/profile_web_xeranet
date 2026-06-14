@@ -18,9 +18,9 @@ export const ContactPage = () => {
 
       {/* Page Header */}
       <PageHeader
-        badge="Hubungi Kami"
-        title="Diskusikan"
-        titleHighlight="Proyek Anda"
+        badge={t("contact.header.badge")}
+        title={t("contact.header.title")}
+        titleHighlight={t("contact.header.titleHighlight")}
         description={t("contact.subtitle")}
       />
 

@@ -51,6 +51,11 @@
   "about": {
     "title": "Tentang PT XERANET",
     "subtitle": "Kenali lebih dekat perjalanan kami, visi misi, dan tim profesional di balik kesuksesan solusi teknologi kami.",
+    "header": {
+      "badge": "Profil Perusahaan",
+      "title": "Tentang",
+      "titleHighlight": "XERANET"
+    },
     "story": {
       "title": "Kisah Perjalanan Kami",
       "p1": "Didirikan dengan visi untuk mendemokratisasi akses teknologi berkualitas tinggi, PT XERANET telah tumbuh dari penyedia jasa jaringan lokal menjadi mitra transformasi digital berskala nasional.",
@@ -88,6 +93,11 @@
   "services": {
     "title": "Layanan Kami",
     "subtitle": "Pilihan solusi IT dan paket infrastruktur jaringan yang disesuaikan dengan kebutuhan bisnis Anda.",
+    "header": {
+      "badge": "Layanan Lengkap",
+      "title": "Layanan &",
+      "titleHighlight": "Paket Harga"
+    },
     "list": {
       "mobile": {
         "title": "Pengembangan Aplikasi Mobile",
@@ -147,6 +157,7 @@
       ]
     },
     "pricing": {
+      "badge": "Paket Harga",
       "title": "Paket Harga Layanan",
       "subtitle": "Transparan, kompetitif, dan dirancang untuk memberikan nilai terbaik bagi bisnis Anda.",
       "tabB2B": "Kebutuhan Bisnis (B2B)",
@@ -174,6 +185,11 @@
   "blog": {
     "title": "Wawasan & Tips",
     "subtitle": "Temukan artikel terbaru, panduan teknologi, tren industri, dan kisah sukses dari tim XERANET.",
+    "header": {
+      "badge": "Wawasan & Tips",
+      "title": "Artikel &",
+      "titleHighlight": "Berita"
+    },
     "searchPlaceholder": "Cari artikel...",
     "noResults": "Tidak ada artikel yang cocok dengan pencarian atau filter Anda.",
     "reset": "Reset Filter",
@@ -191,6 +207,11 @@
   "contact": {
     "title": "Hubungi Kami",
     "subtitle": "Mari diskusikan bagaimana kami dapat membantu mengakselerasi bisnis Anda melalui teknologi.",
+    "header": {
+      "badge": "Hubungi Kami",
+      "title": "Diskusikan",
+      "titleHighlight": "Proyek Anda"
+    },
     "info": {
       "title": "Informasi Kontak",
       "address": "Alamat Kantor",

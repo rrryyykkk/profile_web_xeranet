@@ -36,9 +36,9 @@ export const BlogPage = () => {
 
       {/* Page Header */}
       <PageHeader
-        badge="Wawasan & Tips"
-        title="Artikel &"
-        titleHighlight="Berita"
+        badge={t("blog.header.badge")}
+        title={t("blog.header.title")}
+        titleHighlight={t("blog.header.titleHighlight")}
         description={t("blog.subtitle")}
       />
 
