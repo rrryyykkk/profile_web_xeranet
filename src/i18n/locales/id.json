@@ -1,0 +1,211 @@
+{
+  "nav": {
+    "home": "Beranda",
+    "about": "Tentang Kami",
+    "services": "Layanan",
+    "blog": "Blog",
+    "contact": "Kontak",
+    "contactUs": "Hubungi Kami"
+  },
+  "footer": {
+    "tagline": "Penyedia Solusi IT & Infrastruktur Jaringan terpercaya untuk mempercepat transformasi digital bisnis Anda.",
+    "services": "Layanan",
+    "company": "Perusahaan",
+    "contact": "Kontak Kami",
+    "rights": "Semua Hak Dilindungi."
+  },
+  "common": {
+    "more": "Selengkapnya",
+    "back": "Kembali",
+    "loading": "Memuat...",
+    "error": "Terjadi kesalahan",
+    "retry": "Coba Lagi",
+    "home": "Beranda",
+    "readMore": "Baca Selengkapnya",
+    "send": "Kirim",
+    "consultation": "Konsultasi Sekarang"
+  },
+  "home": {
+    "hero": {
+      "title": "Solusi IT & Infrastruktur Terpercaya",
+      "subtitle": "XERANET menghadirkan solusi teknologi mutakhir, pengembangan perangkat lunak, dan infrastruktur jaringan handal untuk menunjang pertumbuhan bisnis Anda di era digital.",
+      "ctaPrimary": "Mulai Konsultasi",
+      "ctaSecondary": "Hubungi Kami"
+    },
+    "stats": {
+      "clients": "Klien Aktif",
+      "projects": "Proyek Selesai",
+      "years": "Tahun Berdiri"
+    },
+    "services": {
+      "title": "Layanan Unggulan Kami",
+      "subtitle": "Kami menawarkan solusi teknologi terintegrasi dari hulu ke hilir untuk membantu bisnis Anda berkembang lebih cepat."
+    },
+    "tech": {
+      "title": "Teknologi Yang Kami Gunakan"
+    },
+    "clients": {
+      "title": "Dipercaya Oleh Perusahaan Terkemuka"
+    }
+  },
+  "about": {
+    "title": "Tentang PT XERANET",
+    "subtitle": "Kenali lebih dekat perjalanan kami, visi misi, dan tim profesional di balik kesuksesan solusi teknologi kami.",
+    "story": {
+      "title": "Kisah Perjalanan Kami",
+      "p1": "Didirikan dengan visi untuk mendemokratisasi akses teknologi berkualitas tinggi, PT XERANET telah tumbuh dari penyedia jasa jaringan lokal menjadi mitra transformasi digital berskala nasional.",
+      "p2": "Kami percaya bahwa setiap bisnis berhak mendapatkan infrastruktur IT yang kokoh dan perangkat lunak yang andal. Komitmen inilah yang mendorong tim insinyur dan pengembang kami untuk terus berinovasi setiap hari."
+    },
+    "vision": {
+      "title": "Visi Kami",
+      "desc": "Menjadi mitra teknologi pilihan utama yang memberdayakan bisnis di seluruh Indonesia melalui solusi IT yang inovatif, aman, dan skalabel."
+    },
+    "mission": {
+      "title": "Misi Kami",
+      "desc": "Menyediakan layanan konsultasi IT berkualitas, membangun infrastruktur jaringan yang tangguh, mengembangkan solusi perangkat lunak yang berfokus pada pengguna, serta memberikan dukungan purna jual terbaik."
+    },
+    "timeline": {
+      "title": "Milestone Perusahaan"
+    },
+    "team": {
+      "title": "Tim Kepemimpinan & Ahli Kami",
+      "subtitle": "Didukung oleh profesional berpengalaman dan bersertifikasi di bidang pengembangan software dan infrastruktur jaringan."
+    },
+    "why": {
+      "title": "Mengapa Memilih Kami?",
+      "points": {
+        "p1_title": "Keahlian Profesional",
+        "p1_desc": "Tim kami terdiri dari pakar bersertifikat industri dengan jam terbang tinggi.",
+        "p2_title": "Solusi Skalabel",
+        "p2_desc": "Setiap sistem yang kami bangun dirancang untuk tumbuh bersama bisnis Anda.",
+        "p3_title": "Keamanan Tingkat Tinggi",
+        "p3_desc": "Proteksi data dan integritas jaringan adalah prioritas utama kami.",
+        "p4_title": "Dukungan 24/7",
+        "p4_desc": "Layanan pelanggan dan tim pemeliharaan siap membantu Anda kapan pun dibutuhkan."
+      }
+    }
+  },
+  "services": {
+    "title": "Layanan Kami",
+    "subtitle": "Pilihan solusi IT dan paket infrastruktur jaringan yang disesuaikan dengan kebutuhan bisnis Anda.",
+    "list": {
+      "mobile": {
+        "title": "Pengembangan Aplikasi Mobile",
+        "desc": "Aplikasi mobile Android & iOS yang performatif, aman, dan scalable. Kami memastikan UI yang intuitif dan pengalaman pengguna yang mulus.",
+        "features": ["Android & iOS Native", "React Native / Flutter", "Push Notifications", "Dukungan Offline", "Penerbitan App Store"],
+        "tag": "Paling Populer"
+      },
+      "web": {
+        "title": "Pengembangan Website",
+        "desc": "Dari company profile hingga platform SaaS yang kompleks — kami bangun dengan teknologi modern, cepat, dan SEO-friendly.",
+        "features": ["Landing Page & Company Profile", "Platform E-Commerce", "Aplikasi Web / SaaS", "Optimasi SEO", "Integrasi CMS"]
+      },
+      "enterprise": {
+        "title": "Sistem Enterprise Kustom",
+        "desc": "Transformasi operasional bisnis dengan sistem yang dirancang khusus sesuai alur kerja — dari ERP hingga platform terintegrasi.",
+        "features": ["Sistem ERP & CRM", "Manajemen Inventori", "Otomasi Alur Kerja", "Integrasi API", "Dasbor Analitik Data"]
+      },
+      "uiux": {
+        "title": "Desain UI/UX",
+        "desc": "Desain produk digital yang indah, intuitif, dan berpusat pada pengguna. Dari wireframe hingga prototype interaktif siap produksi.",
+        "features": ["Riset Pengguna", "Wireframing & Prototyping", "Sistem Desain", "Uji Kegunaan", "Handoff Figma"]
+      },
+      "cloud": {
+        "title": "Cloud & DevOps",
+        "desc": "Infrastruktur cloud yang andal, skalabel, dan aman. CI/CD pipeline, containerisasi, dan monitoring untuk produksi yang stabil.",
+        "features": ["Setup AWS / GCP / Azure", "Docker & Kubernetes", "CI/CD Pipeline", "Auto Scaling", "Pemantauan 24/7"]
+      },
+      "consulting": {
+        "title": "Konsultasi IT",
+        "desc": "Konsultasi strategis untuk transformasi digital bisnis Anda. Kami bantu menentukan arsitektur, stack, dan roadmap teknologi terbaik.",
+        "features": ["Penilaian Tech Stack", "Roadmap Transformasi Digital", "Perencanaan Arsitektur", "Code Review", "Mentoring Tim"]
+      },
+      "cyber": {
+        "title": "Keamanan Siber",
+        "desc": "Lindungi aset digital bisnis Anda dari ancaman siber dengan solusi keamanan berlapis — dari audit keamanan hingga respon insiden.",
+        "features": ["Penetration Testing", "Audit Keamanan Sistem", "Proteksi DDoS", "Enkripsi Data", "Respons Insiden Siber"],
+        "tag": "Baru"
+      },
+      "network": {
+        "title": "Jaringan & Infrastruktur",
+        "desc": "Perancangan dan implementasi infrastruktur jaringan yang handal, cepat, dan aman untuk kebutuhan bisnis skala kecil hingga enterprise.",
+        "features": ["Desain Topologi Jaringan", "Konfigurasi Router & Switch", "VPN & Firewall", "Monitoring Jaringan", "Pemeliharaan Infrastruktur"],
+        "tag": "Baru"
+      }
+    },
+    "steps": {
+      "title": "Cara Kami Bekerja",
+      "subtitle": "Proses Pengerjaan",
+      "desc": "Kami mengikuti proses yang terstruktur untuk memastikan setiap proyek berjalan lancar dan tepat waktu.",
+      "list": [
+        { "title": "Penemuan", "desc": "Kami pahami kebutuhan, tujuan, dan tantangan bisnis Anda secara mendalam." },
+        { "title": "Perencanaan", "desc": "Menyusun roadmap, arsitektur sistem, dan estimasi waktu & biaya yang transparan." },
+        { "title": "Pengembangan", "desc": "Pengembangan iteratif dengan update progress rutin dan demo berkala." },
+        { "title": "Pengujian & QA", "desc": "Pengujian menyeluruh — fungsional, performa, keamanan, dan UX." },
+        { "title": "Peluncuran", "desc": "Peluncuran ke production dengan zero-downtime dan monitoring aktif." },
+        { "title": "Dukungan", "desc": "Dukungan after-launch, maintenance, dan pengembangan fitur lanjutan." }
+      ]
+    },
+    "pricing": {
+      "title": "Paket Harga Layanan",
+      "subtitle": "Transparan, kompetitif, dan dirancang untuk memberikan nilai terbaik bagi bisnis Anda.",
+      "tabB2B": "Kebutuhan Bisnis (B2B)",
+      "tabB2C": "Solusi Mandiri (B2C)",
+      "features": "Fitur Paket",
+      "cta": "Pilih Paket"
+    },
+    "faq": {
+      "title": "Pertanyaan yang Sering Diajukan",
+      "subtitle": "Temukan jawaban cepat untuk pertanyaan umum mengenai layanan dan proses kerja kami.",
+      "q1": "Berapa lama pengerjaan sebuah proyek?",
+      "a1": "Tergantung kompleksitas. Landing page: 1–2 minggu. Aplikasi mobile sederhana: 1–2 bulan. Sistem enterprise: 3–6 bulan. Kami selalu memberikan estimasi yang realistis di awal.",
+      "q2": "Apakah ada biaya konsultasi awal?",
+      "a2": "Tidak. Konsultasi awal kami 100% gratis. Kami percaya bahwa memahami kebutuhan Anda terlebih dahulu adalah langkah penting sebelum memberikan penawaran.",
+      "q3": "Bagaimana sistem pembayaran proyek?",
+      "a3": "Biasanya dibagi dalam tahapan milestone: DP di awal, pembayaran per fase pengembangan, dan pelunasan saat delivery final. Transparan dan fleksibel.",
+      "q4": "Apakah ada dukungan setelah proyek selesai?",
+      "a4": "Ya. Kami menyediakan garansi perbaikan bug dan dukungan after-launch. Paket maintenance jangka panjang juga tersedia sesuai kebutuhan.",
+      "q5": "Teknologi apa saja yang digunakan?",
+      "a5": "Kami menggunakan stack modern: React Native & Flutter untuk mobile, Next.js & React untuk web, Laravel & Node.js untuk backend, serta AWS/GCP untuk infrastruktur cloud.",
+      "q6": "Apakah bisa request fitur tambahan di tengah proyek?",
+      "a6": "Bisa. Kami menggunakan pendekatan agile sehingga perubahan dan penambahan fitur bisa diakomodasi dengan kesepakatan bersama mengenai scope dan timeline."
+    }
+  },
+  "blog": {
+    "title": "Wawasan & Tips",
+    "subtitle": "Temukan artikel terbaru, panduan teknologi, tren industri, dan kisah sukses dari tim XERANET.",
+    "searchPlaceholder": "Cari artikel...",
+    "noResults": "Tidak ada artikel yang cocok dengan pencarian atau filter Anda.",
+    "reset": "Reset Filter",
+    "readTime": "menit baca",
+    "related": "Artikel Terkait",
+    "trending": "Sedang Tren",
+    "newsletter": {
+      "title": "Langganan Newsletter",
+      "subtitle": "Dapatkan wawasan teknologi terbaru langsung di inbox Anda setiap minggu.",
+      "placeholder": "Masukkan email Anda",
+      "button": "Berlangganan",
+      "success": "Terima kasih! Anda berhasil berlangganan."
+    }
+  },
+  "contact": {
+    "title": "Hubungi Kami",
+    "subtitle": "Mari diskusikan bagaimana kami dapat membantu mengakselerasi bisnis Anda melalui teknologi.",
+    "info": {
+      "title": "Informasi Kontak",
+      "address": "Alamat Kantor",
+      "email": "Email Kami",
+      "phone": "Telepon / WA"
+    },
+    "form": {
+      "name": "Nama Lengkap",
+      "email": "Alamat Email",
+      "phone": "Nomor WhatsApp / HP",
+      "service": "Layanan yang Dibutuhkan",
+      "servicePlaceholder": "Pilih layanan",
+      "message": "Pesan / Detail Kebutuhan",
+      "submit": "Kirim Pesan",
+      "success": "Pesan Anda berhasil dikirim! Tim kami akan menghubungi Anda segera."
+    }
+  }
+}

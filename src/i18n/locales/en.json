@@ -1,0 +1,211 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "blog": "Blog",
+    "contact": "Contact",
+    "contactUs": "Contact Us"
+  },
+  "footer": {
+    "tagline": "Trusted IT Solutions & Network Infrastructure provider to accelerate your business digital transformation.",
+    "services": "Services",
+    "company": "Company",
+    "contact": "Contact Us",
+    "rights": "All Rights Reserved."
+  },
+  "common": {
+    "more": "More",
+    "back": "Back",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry",
+    "home": "Home",
+    "readMore": "Read More",
+    "send": "Send",
+    "consultation": "Consult Now"
+  },
+  "home": {
+    "hero": {
+      "title": "Trusted IT & Infrastructure Solutions",
+      "subtitle": "XERANET delivers cutting-edge technology solutions, custom software development, and reliable network infrastructure to support your business growth in the digital era.",
+      "ctaPrimary": "Start Consultation",
+      "ctaSecondary": "Contact Us"
+    },
+    "stats": {
+      "clients": "Active Clients",
+      "projects": "Projects Completed",
+      "years": "Years Established"
+    },
+    "services": {
+      "title": "Our Core Services",
+      "subtitle": "We offer end-to-end integrated technology solutions to help your business scale faster."
+    },
+    "tech": {
+      "title": "Technologies We Use"
+    },
+    "clients": {
+      "title": "Trusted by Industry Leaders"
+    }
+  },
+  "about": {
+    "title": "About PT XERANET",
+    "subtitle": "Get to know our journey, vision, mission, and the professional team behind our successful technology solutions.",
+    "story": {
+      "title": "Our Journey",
+      "p1": "Founded with a vision to democratize access to high-quality technology, PT XERANET has grown from a local network service provider into a national-scale digital transformation partner.",
+      "p2": "We believe that every business deserves robust IT infrastructure and reliable software. This commitment drives our team of engineers and developers to keep innovating every day."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "desc": "To be the preferred technology partner empowering businesses across Indonesia through innovative, secure, and scalable IT solutions."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "desc": "To provide high-quality IT consulting, construct resilient network infrastructure, develop user-centric software solutions, and offer top-notch after-sales support."
+    },
+    "timeline": {
+      "title": "Company Milestones"
+    },
+    "team": {
+      "title": "Our Leadership & Expert Team",
+      "subtitle": "Backed by experienced and certified professionals in software development and network infrastructure."
+    },
+    "why": {
+      "title": "Why Choose Us?",
+      "points": {
+        "p1_title": "Professional Expertise",
+        "p1_desc": "Our team consists of industry-certified experts with rich field experience.",
+        "p2_title": "Scalable Solutions",
+        "p2_desc": "Every system we build is designed to grow along with your business.",
+        "p3_title": "Enterprise Security",
+        "p3_desc": "Data protection and network integrity are our highest priorities.",
+        "p4_title": "24/7 Support",
+        "p4_desc": "Our customer service and maintenance teams are ready to help you whenever needed."
+      }
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "A selection of IT solutions and network infrastructure packages tailored to your business needs.",
+    "list": {
+      "mobile": {
+        "title": "Mobile App Development",
+        "desc": "Performant, secure, and scalable Android & iOS mobile applications. We ensure intuitive UI and seamless user experience.",
+        "features": ["Android & iOS Native", "React Native / Flutter", "Push Notifications", "Offline Support", "App Store Publishing"],
+        "tag": "Most Popular"
+      },
+      "web": {
+        "title": "Website Development",
+        "desc": "From company profiles to complex SaaS platforms — we build with modern, fast, and SEO-friendly technologies.",
+        "features": ["Landing Page & Company Profile", "E-Commerce Platforms", "Web / SaaS Applications", "SEO Optimization", "CMS Integration"]
+      },
+      "enterprise": {
+        "title": "Custom Enterprise Systems",
+        "desc": "Transform business operations with custom-designed systems tailored to workflows — from ERP to integrated platforms.",
+        "features": ["ERP & CRM Systems", "Inventory Management", "Workflow Automation", "API Integration", "Data Analytics Dashboards"]
+      },
+      "uiux": {
+        "title": "UI/UX Design",
+        "desc": "Beautiful, intuitive, and user-centered digital product design. From wireframes to production-ready interactive prototypes.",
+        "features": ["User Research", "Wireframing & Prototyping", "Design Systems", "Usability Testing", "Figma Handoff"]
+      },
+      "cloud": {
+        "title": "Cloud & DevOps",
+        "desc": "Reliable, scalable, and secure cloud infrastructure. CI/CD pipeline, containerization, and monitoring for stable production.",
+        "features": ["AWS / GCP / Azure Setup", "Docker & Kubernetes", "CI/CD Pipeline", "Auto Scaling", "24/7 Monitoring"]
+      },
+      "consulting": {
+        "title": "IT Consulting",
+        "desc": "Strategic consulting for your business digital transformation. We help determine the best technology architecture, stack, and roadmap.",
+        "features": ["Tech Stack Assessment", "Digital Transformation Roadmap", "Architecture Planning", "Code Review", "Team Mentoring"]
+      },
+      "cyber": {
+        "title": "Cyber Security",
+        "desc": "Protect your business digital assets from cyber threats with multi-layered security solutions — from security audits to incident response.",
+        "features": ["Penetration Testing", "System Security Audits", "DDoS Protection", "Data Encryption", "Cyber Incident Response"],
+        "tag": "New"
+      },
+      "network": {
+        "title": "Network & Infrastructure",
+        "desc": "Design and implementation of reliable, fast, and secure network infrastructure for small business to enterprise needs.",
+        "features": ["Network Topology Design", "Router & Switch Configuration", "VPN & Firewall", "Network Monitoring", "Infrastructure Maintenance"],
+        "tag": "New"
+      }
+    },
+    "steps": {
+      "title": "How We Work",
+      "subtitle": "Execution Process",
+      "desc": "We follow a structured process to ensure every project runs smoothly and on time.",
+      "list": [
+        { "title": "Discovery", "desc": "We deeply understand your business needs, goals, and challenges." },
+        { "title": "Planning", "desc": "Drafting the roadmap, system architecture, and transparent timeline & cost estimates." },
+        { "title": "Development", "desc": "Iterative development with regular progress updates and periodic demos." },
+        { "title": "Testing & QA", "desc": "Thorough testing — functional, performance, security, and UX." },
+        { "title": "Launch", "desc": "Launch to production with zero-downtime and active monitoring." },
+        { "title": "Support", "desc": "After-launch support, maintenance, and further feature development." }
+      ]
+    },
+    "pricing": {
+      "title": "Service Pricing Plans",
+      "subtitle": "Transparent, competitive, and designed to deliver maximum value to your business.",
+      "tabB2B": "Business Needs (B2B)",
+      "tabB2C": "Individual Solutions (B2C)",
+      "features": "Package Features",
+      "cta": "Choose Plan"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Find quick answers to common questions about our services and work processes.",
+      "q1": "How long does a project take?",
+      "a1": "Depending on complexity. Landing page: 1–2 weeks. Simple mobile app: 1–2 months. Enterprise system: 3–6 months. We always provide a realistic estimate upfront.",
+      "q2": "Is there any fee for the initial consultation?",
+      "a2": "No. Our initial consultation is 100% free. We believe that understanding your needs first is an important step before providing a proposal.",
+      "q3": "How is the payment structured?",
+      "a3": "Usually divided into milestone stages: Down Payment at the beginning, payments per development phase, and final settlement upon delivery. Transparent and flexible.",
+      "q4": "Is there support after the project is completed?",
+      "a4": "Yes. We provide bug fixes warranty and after-launch support. Long-term maintenance packages are also available as needed.",
+      "q5": "What technologies do you use?",
+      "a5": "We use a modern stack: React Native & Flutter for mobile, Next.js & React for web, Laravel & Node.js for backend, and AWS/GCP for cloud infrastructure.",
+      "q6": "Can I request additional features in the middle of a project?",
+      "a6": "Yes. We use an agile approach, so changes and additions to features can be accommodated through mutual agreement regarding scope and timeline."
+    }
+  },
+  "blog": {
+    "title": "Insights & Tips",
+    "subtitle": "Find the latest articles, tech guides, industry trends, and success stories from the XERANET team.",
+    "searchPlaceholder": "Search articles...",
+    "noResults": "No articles match your search or filters.",
+    "reset": "Reset Filters",
+    "readTime": "min read",
+    "related": "Related Articles",
+    "trending": "Trending",
+    "newsletter": {
+      "title": "Subscribe to Newsletter",
+      "subtitle": "Get the latest technology insights delivered straight to your inbox weekly.",
+      "placeholder": "Enter your email",
+      "button": "Subscribe",
+      "success": "Thank you! You have successfully subscribed."
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Let's discuss how we can help accelerate your business through technology.",
+    "info": {
+      "title": "Contact Information",
+      "address": "Office Address",
+      "email": "Our Email",
+      "phone": "Phone / WA"
+    },
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "WhatsApp / Phone Number",
+      "service": "Service Required",
+      "servicePlaceholder": "Select service",
+      "message": "Message / Detailed Requirements",
+      "submit": "Send Message",
+      "success": "Your message was sent successfully! Our team will contact you shortly."
+    }
+  }
+}
