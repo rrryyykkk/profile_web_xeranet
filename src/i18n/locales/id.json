@@ -23,7 +23,13 @@
     "home": "Beranda",
     "readMore": "Baca Selengkapnya",
     "send": "Kirim",
-    "consultation": "Konsultasi Sekarang"
+    "consultation": "Konsultasi Sekarang",
+    "cta": {
+      "title": "Siap Membangun Masa Depan Digital Anda?",
+      "desc": "Mari diskusikan visi Anda bersama kami. Tim konsultan ahli kami siap membantu merancang solusi teknologi yang paling tepat untuk bisnis Anda.",
+      "btn1": "Mulai Konsultasi Gratis",
+      "btn2": "Lihat Katalog Layanan"
+    }
   },
   "home": {
     "hero": {
@@ -42,10 +48,29 @@
       "subtitle": "Kami menawarkan solusi teknologi terintegrasi dari hulu ke hilir untuk membantu bisnis Anda berkembang lebih cepat."
     },
     "tech": {
-      "title": "Teknologi Yang Kami Gunakan"
+      "label": "Tech Stack",
+      "title": "Teknologi Yang Kami Gunakan",
+      "subtitle": "Kami menggunakan teknologi modern dan terpercaya untuk membangun solusi yang scalable dan maintainable."
     },
     "clients": {
       "title": "Dipercaya Oleh Perusahaan Terkemuka"
+    },
+    "servicesPreview": {
+      "learnMore": "Pelajari Selengkapnya",
+      "items": [
+        {
+          "title": "Software Development",
+          "desc": "Pengembangan sistem aplikasi kustom, web apps modern (React/Next.js), dan aplikasi mobile (iOS & Android)."
+        },
+        {
+          "title": "Infrastruktur Jaringan",
+          "desc": "Desain, instalasi, dan pemeliharaan infrastruktur jaringan kantor yang handal, cepat, dan aman."
+        },
+        {
+          "title": "Cloud & Keamanan Siber",
+          "desc": "Migrasi cloud server, audit keamanan, dan penerapan sistem Cybersecurity Mesh untuk proteksi data."
+        }
+      ]
     }
   },
   "about": {
@@ -70,7 +95,30 @@
       "desc": "Menyediakan layanan konsultasi IT berkualitas, membangun infrastruktur jaringan yang tangguh, mengembangkan solusi perangkat lunak yang berfokus pada pengguna, serta memberikan dukungan purna jual terbaik."
     },
     "timeline": {
-      "title": "Milestone Perusahaan"
+      "title": "Milestone Perusahaan",
+      "subtitle": "Perjalanan Sejarah Kami",
+      "list": [
+        {
+          "year": "2018",
+          "title": "Pendirian Perusahaan",
+          "desc": "PT XERANET didirikan di Jakarta dengan tim inti beranggotakan 5 insinyur jaringan komputer."
+        },
+        {
+          "year": "2020",
+          "title": "Ekspansi Layanan IT",
+          "desc": "Meluncurkan divisi pengembangan perangkat lunak kustom untuk web dan aplikasi seluler."
+        },
+        {
+          "year": "2022",
+          "title": "Sertifikasi ISO 27001",
+          "desc": "Berhasil mendapatkan sertifikasi standar manajemen keamanan informasi internasional."
+        },
+        {
+          "year": "2025",
+          "title": "Kemitraan Skala Nasional",
+          "desc": "Menjadi mitra IT resmi untuk 3 grup konglomerasi ritel dan infrastruktur di Indonesia."
+        }
+      ]
     },
     "team": {
       "title": "Tim Kepemimpinan & Ahli Kami",
@@ -163,7 +211,107 @@
       "tabB2B": "Kebutuhan Bisnis (B2B)",
       "tabB2C": "Solusi Mandiri (B2C)",
       "features": "Fitur Paket",
-      "cta": "Pilih Paket"
+      "cta": "Pilih Paket",
+      "recommendation": "Rekomendasi",
+      "plans": {
+        "b2cBasic": {
+          "name": "Starter Pack",
+          "price": "Rp 2.500.000",
+          "period": "/proyek",
+          "desc": "Cocok untuk UMKM, portofolio digital pribadi, atau landing page bisnis sederhana.",
+          "features": [
+            "Desain Responsive (Mobile & Desktop)",
+            "Hingga 5 Halaman Konten",
+            "Integrasi Kontak WhatsApp & Social Media",
+            "Optimasi SEO On-Page Dasar",
+            "Dukungan Pemeliharaan 1 Bulan"
+          ]
+        },
+        "b2cPremium": {
+          "name": "Business Growth",
+          "price": "Rp 7.500.000",
+          "period": "/proyek",
+          "desc": "Sangat direkomendasikan untuk bisnis yang ingin memperluas jangkauan online interaktif.",
+          "features": [
+            "Desain UI/UX Custom & Animasi Mikro",
+            "Hingga 15 Halaman Konten",
+            "Integrasi Form Kontak & Validasi Zod",
+            "Fitur Multi-bahasa (i18n)",
+            "Optimasi Kecepatan & SEO Lanjutan",
+            "Dukungan Pemeliharaan 3 Bulan"
+          ]
+        },
+        "b2bInfra": {
+          "name": "Network & Infrastructure Setup",
+          "price": "Mulai Rp 15.000.000",
+          "period": "/setup",
+          "desc": "Solusi perancangan jaringan kantor lokal yang aman, handal, dan berkecepatan tinggi.",
+          "features": [
+            "Perancangan Topologi Jaringan Kustom",
+            "Konfigurasi Router & Switch Level Enterprise",
+            "Instalasi Kabel Jaringan & Access Point",
+            "Setup Firewall & Network Access Control",
+            "Dokumentasi Teknis Lengkap",
+            "Garansi Support 3 Bulan"
+          ]
+        },
+        "b2bEnterprise": {
+          "name": "Enterprise Digital Core",
+          "price": "Hubungi Kami",
+          "period": "/kontrak",
+          "desc": "Paket transformasi digital lengkap mencakup software kustom skala besar dan support infrastruktur penuh.",
+          "features": [
+            "Aplikasi Web & Mobile Kustom Berkinerja Tinggi",
+            "Integrasi Sistem Cloud (AWS/GCP/Azure)",
+            "Cybersecurity Mesh Architecture (CSMA)",
+            "SLA Pemeliharaan Jaringan 24/7",
+            "Dedicated Manager & Tim Support",
+            "Pelatihan Staf & Handover Kode Sumber"
+          ]
+        }
+      }
+    },
+    "comparison": {
+      "title": "Tabel Perbandingan Fitur",
+      "headers": ["Fitur / Layanan", "Starter", "Business", "Enterprise"],
+      "rows": [
+        {
+          "feature": "Optimasi Responsive UI",
+          "starter": "Dasar",
+          "business": "Penuh (Micro-animation)",
+          "enterprise": "Penuh + Custom Motion"
+        },
+        {
+          "feature": "Optimasi Kecepatan (Lighthouse)",
+          "starter": "Cukup (80+)",
+          "business": "Baik (90+)",
+          "enterprise": "Sangat Baik (95+)"
+        },
+        {
+          "feature": "Integrasi Sistem Pembayaran / Form",
+          "starter": "Form Sederhana",
+          "business": "Zod Schema Validation",
+          "enterprise": "API Custom + Payment Gateway"
+        },
+        {
+          "feature": "Multi-Language Toggle",
+          "starter": "Tidak Tersedia",
+          "business": "Ya (2 Bahasa - ID/EN)",
+          "enterprise": "Ya (Tanpa Batas Bahasa)"
+        },
+        {
+          "feature": "Layanan Pemeliharaan (SLA)",
+          "starter": "1 Bulan",
+          "business": "3 Bulan",
+          "enterprise": "24/7 Dedicated Support"
+        },
+        {
+          "feature": "Security Audit & Backup",
+          "starter": "Keamanan Dasar",
+          "business": "Bulanan Backup",
+          "enterprise": "Real-time Backups + Security Mesh"
+        }
+      ]
     },
     "faq": {
       "title": "Pertanyaan yang Sering Diajukan",

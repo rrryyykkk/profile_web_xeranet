@@ -23,7 +23,13 @@
     "home": "Home",
     "readMore": "Read More",
     "send": "Send",
-    "consultation": "Consult Now"
+    "consultation": "Consult Now",
+    "cta": {
+      "title": "Ready to Build Your Digital Future?",
+      "desc": "Let's discuss your vision with us. Our expert consulting team is ready to help design the most appropriate technology solutions for your business.",
+      "btn1": "Start Free Consultation",
+      "btn2": "View Services Catalog"
+    }
   },
   "home": {
     "hero": {
@@ -42,10 +48,41 @@
       "subtitle": "We offer end-to-end integrated technology solutions to help your business scale faster."
     },
     "tech": {
-      "title": "Technologies We Use"
+      "label": "Tech Stack",
+      "title": "Technologies We Use",
+      "subtitle": "We use modern, trusted technologies to build scalable and maintainable solutions."
     },
     "clients": {
-      "title": "Trusted by Industry Leaders"
+      "title": "Trusted by Industry Leaders",
+      "label": "Client Trust",
+      "heading": "Our Partners",
+      "subtitle": "We have been trusted by leading companies to build their digital solutions.",
+      "badge": "50+ Active Partners",
+      "partners": [
+        { "name": "Telkom Indonesia", "category": "Telecommunications", "desc": "Network infrastructure & national cloud collaboration." },
+        { "name": "Bank BRI", "category": "Banking", "desc": "Digital banking system & fintech development." },
+        { "name": "Gojek", "category": "Technology", "desc": "Service platform integration & feature development." },
+        { "name": "Pertamina", "category": "Energy", "desc": "Operational process digitalization & system monitoring." },
+        { "name": "Kimia Farma", "category": "Healthcare", "desc": "Pharmacy management & digital distribution system." },
+        { "name": "PLN", "category": "Energy", "desc": "National energy monitoring & management platform." }
+      ]
+    },
+    "servicesPreview": {
+      "learnMore": "Learn More",
+      "items": [
+        {
+          "title": "Software Development",
+          "desc": "Custom application systems, modern web apps (React/Next.js), and mobile applications (iOS & Android)."
+        },
+        {
+          "title": "Network Infrastructure",
+          "desc": "Design, installation, and maintenance of reliable, fast, and secure office network infrastructure."
+        },
+        {
+          "title": "Cloud & Cyber Security",
+          "desc": "Cloud server migration, security audits, and Cybersecurity Mesh deployment for data protection."
+        }
+      ]
     }
   },
   "about": {
@@ -70,7 +107,30 @@
       "desc": "To provide high-quality IT consulting, construct resilient network infrastructure, develop user-centric software solutions, and offer top-notch after-sales support."
     },
     "timeline": {
-      "title": "Company Milestones"
+      "title": "Company Milestones",
+      "subtitle": "Our Historical Journey",
+      "list": [
+        {
+          "year": "2018",
+          "title": "Company Foundation",
+          "desc": "PT XERANET was established in Jakarta with a core team of 5 computer network engineers."
+        },
+        {
+          "year": "2020",
+          "title": "IT Services Expansion",
+          "desc": "Launched custom software development division for web and mobile applications."
+        },
+        {
+          "year": "2022",
+          "title": "ISO 27001 Certification",
+          "desc": "Successfully achieved international information security management standard certification."
+        },
+        {
+          "year": "2025",
+          "title": "National Scale Partnership",
+          "desc": "Became the official IT partner for 3 retail and infrastructure conglomerate groups in Indonesia."
+        }
+      ]
     },
     "team": {
       "title": "Our Leadership & Expert Team",
@@ -229,7 +289,107 @@
       "tabB2B": "Business Needs (B2B)",
       "tabB2C": "Individual Solutions (B2C)",
       "features": "Package Features",
-      "cta": "Choose Plan"
+      "cta": "Choose Plan",
+      "recommendation": "Recommended",
+      "plans": {
+        "b2cBasic": {
+          "name": "Starter Pack",
+          "price": "Rp 2,500,000",
+          "period": "/project",
+          "desc": "Suitable for SMEs, personal digital portfolios, or simple business landing pages.",
+          "features": [
+            "Responsive Design (Mobile & Desktop)",
+            "Up to 5 Content Pages",
+            "WhatsApp & Social Media Integration",
+            "Basic On-Page SEO Optimization",
+            "1 Month Maintenance Support"
+          ]
+        },
+        "b2cPremium": {
+          "name": "Business Growth",
+          "price": "Rp 7,500,000",
+          "period": "/project",
+          "desc": "Highly recommended for businesses looking to expand their interactive online reach.",
+          "features": [
+            "Custom UI/UX Design & Micro-animations",
+            "Up to 15 Content Pages",
+            "Contact Form Integration & Zod Validation",
+            "Multi-language Feature (i18n)",
+            "Advanced Speed & SEO Optimization",
+            "3 Months Maintenance Support"
+          ]
+        },
+        "b2bInfra": {
+          "name": "Network & Infrastructure Setup",
+          "price": "Start from Rp 15,000,000",
+          "period": "/setup",
+          "desc": "Secure, reliable, and high-speed local office network design solutions.",
+          "features": [
+            "Custom Network Topology Design",
+            "Enterprise-Level Router & Switch Configuration",
+            "Network Cabling & Access Point Installation",
+            "Firewall & Network Access Control Setup",
+            "Comprehensive Technical Documentation",
+            "3 Months Support Warranty"
+          ]
+        },
+        "b2bEnterprise": {
+          "name": "Enterprise Digital Core",
+          "price": "Contact Us",
+          "period": "/contract",
+          "desc": "Complete digital transformation package including large-scale custom software and full infrastructure support.",
+          "features": [
+            "High-Performance Custom Web & Mobile Apps",
+            "Cloud System Integration (AWS/GCP/Azure)",
+            "Cybersecurity Mesh Architecture (CSMA)",
+            "24/7 Network Maintenance SLA",
+            "Dedicated Manager & Support Team",
+            "Staff Training & Source Code Handover"
+          ]
+        }
+      }
+    },
+    "comparison": {
+      "title": "Feature Comparison Table",
+      "headers": ["Feature / Service", "Starter", "Business", "Enterprise"],
+      "rows": [
+        {
+          "feature": "Responsive UI Optimization",
+          "starter": "Basic",
+          "business": "Full (Micro-animation)",
+          "enterprise": "Full + Custom Motion"
+        },
+        {
+          "feature": "Speed Optimization (Lighthouse)",
+          "starter": "Good (80+)",
+          "business": "Excellent (90+)",
+          "enterprise": "Outstanding (95+)"
+        },
+        {
+          "feature": "Payment / Form Integration",
+          "starter": "Simple Form",
+          "business": "Zod Schema Validation",
+          "enterprise": "Custom API + Payment Gateway"
+        },
+        {
+          "feature": "Multi-Language Toggle",
+          "starter": "Not Available",
+          "business": "Yes (2 Languages - ID/EN)",
+          "enterprise": "Yes (Unlimited Languages)"
+        },
+        {
+          "feature": "Maintenance Service (SLA)",
+          "starter": "1 Month",
+          "business": "3 Months",
+          "enterprise": "24/7 Dedicated Support"
+        },
+        {
+          "feature": "Security Audit & Backup",
+          "starter": "Basic Security",
+          "business": "Monthly Backup",
+          "enterprise": "Real-time Backups + Security Mesh"
+        }
+      ]
     },
     "faq": {
       "title": "Frequently Asked Questions",

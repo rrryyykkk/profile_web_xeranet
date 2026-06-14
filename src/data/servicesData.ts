@@ -135,36 +135,25 @@ export const pricingPlans: PricingPlan[] = [
   // B2C Plans
   {
     id: "b2c-basic",
+    translationKey: "b2cBasic",
     name: "Starter Pack",
     price: "Rp 2.500.000",
     period: "/proyek",
     description:
       "Cocok untuk UMKM, portofolio digital pribadi, atau landing page bisnis sederhana.",
-    features: [
-      "Desain Responsive (Mobile & Desktop)",
-      "Hingga 5 Halaman Konten",
-      "Integrasi Kontak WhatsApp & Social Media",
-      "Optimasi SEO On-Page Dasar",
-      "Dukungan Pemeliharaan 1 Bulan",
-    ],
+    features: [],
     isPopular: false,
     type: "b2c",
   },
   {
     id: "b2c-premium",
+    translationKey: "b2cPremium",
     name: "Business Growth",
     price: "Rp 7.500.000",
     period: "/proyek",
     description:
       "Sangat direkomendasikan untuk bisnis yang ingin memperluas jangkauan online interaktif.",
-    features: [
-      "Desain UI/UX Custom & Animasi Mikro",
-      "Hingga 15 Halaman Konten",
-      "Integrasi Form Kontak & Validasi Zod",
-      "Fitur Multi-bahasa (i18n)",
-      "Optimasi Kecepatan & SEO Lanjutan",
-      "Dukungan Pemeliharaan 3 Bulan",
-    ],
+    features: [],
     isPopular: true,
     type: "b2c",
   },
@@ -172,37 +161,25 @@ export const pricingPlans: PricingPlan[] = [
   // B2B Plans
   {
     id: "b2b-infra",
+    translationKey: "b2bInfra",
     name: "Network & Infrastructure Setup",
     price: "Mulai Rp 15.000.000",
     period: "/setup",
     description:
       "Solusi perancangan jaringan kantor lokal yang aman, handal, dan berkecepatan tinggi.",
-    features: [
-      "Perancangan Topologi Jaringan Kustom",
-      "Konfigurasi Router & Switch Level Enterprise",
-      "Instalasi Kabel Jaringan & Access Point",
-      "Setup Firewall & Network Access Control",
-      "Dokumentasi Teknis Lengkap",
-      "Garansi Support 3 Bulan",
-    ],
+    features: [],
     isPopular: false,
     type: "b2b",
   },
   {
     id: "b2b-enterprise",
+    translationKey: "b2bEnterprise",
     name: "Enterprise Digital Core",
     price: "Hubungi Kami",
     period: "/kontrak",
     description:
       "Paket transformasi digital lengkap mencakup software kustom skala besar dan support infrastruktur penuh.",
-    features: [
-      "Aplikasi Web & Mobile Kustom Berkinerja Tinggi",
-      "Integrasi Sistem Cloud (AWS/GCP/Azure)",
-      "Cybersecurity Mesh Architecture (CSMA)",
-      "SLA Pemeliharaan Jaringan 24/7",
-      "Dedicated Manager & Tim Support",
-      "Pelatihan Staf & Handover Kode Sumber",
-    ],
+    features: [],
     isPopular: true,
     type: "b2b",
     ctaKey: "common.consultation",

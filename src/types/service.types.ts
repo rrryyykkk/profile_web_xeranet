@@ -19,6 +19,7 @@ export interface ProcessStep {
 
 export interface PricingPlan {
   id: string;
+  translationKey: string;
   name: string;
   price: string;
   period: string; // "/bulan", "/proyek"

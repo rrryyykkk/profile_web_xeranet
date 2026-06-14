@@ -35,9 +35,22 @@ export const ServicesPage = () => {
       <ProcessSteps />
 
       {/* Pricing Tabs & Cards */}
-      <section className="py-24 bg-slate-50/50 dark:bg-slate-900/10 border-b border-border">
-        <div className="container mx-auto px-4 md:px-8 max-w-6xl">
-          <div className="text-center max-w-2xl mx-auto mb-16 flex flex-col gap-3">
+      <section
+        className="py-16 border-b border-border relative overflow-hidden"
+        style={{
+          background: "linear-gradient(180deg, #F8FAFC 0%, #EEF2FF 100%)",
+        }}
+      >
+        <div
+          className="absolute inset-0 opacity-[0.03] pointer-events-none dark:opacity-[0.04]"
+          style={{
+            backgroundImage:
+              "radial-gradient(circle at 1px 1px, #6D28D9 1px, transparent 0)",
+            backgroundSize: "32px 32px",
+          }}
+        />
+        <div className="container mx-auto px-4 md:px-8 max-w-6xl relative z-10">
+          <div className="text-center max-w-2xl mx-auto mb-10 flex flex-col gap-3">
             <span className="text-sm font-bold text-primary tracking-widest uppercase">
               {t("services.pricing.badge")}
             </span>

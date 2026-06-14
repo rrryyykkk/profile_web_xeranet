@@ -7,7 +7,7 @@ export const ProcessSteps = () => {
 
   return (
     <section
-      className="py-20 relative overflow-hidden"
+      className="py-16 relative overflow-hidden"
       style={{ background: "linear-gradient(135deg, #1E0A3C 0%, #2E1065 55%, #164E63 100%)" }}
     >
       <div

@@ -1,4 +1,5 @@
 import { motion } from "motion/react";
+import { useTranslation } from "react-i18next";
 
 // Inline SVG icons
 const techStack = [
@@ -57,9 +58,12 @@ const techStack = [
 ];
 
 export const TechStack = () => {
+  const { t } = useTranslation();
+
   return (
-    <section className="py-20 bg-white dark:bg-slate-950 border-y border-border overflow-hidden">
-      <div className="container mx-auto px-4 md:px-8 max-w-6xl">
+    <section className="py-16 bg-linear-to-b from-slate-50 to-white dark:from-slate-900/50 dark:to-slate-950 border-y border-border overflow-hidden relative">
+      <div className="absolute inset-0 bg-[url('/noise.png')] opacity-[0.015] pointer-events-none mix-blend-overlay"></div>
+      <div className="container mx-auto px-4 md:px-8 max-w-6xl relative z-10">
         <div className="text-center mb-12">
           <motion.div
             initial={{ opacity: 0, y: 10 }}
@@ -74,14 +78,13 @@ export const TechStack = () => {
                 color: "#6D28D9",
               }}
             >
-              Tech Stack
+              {t("home.tech.label")}
             </span>
             <h2 className="text-slate-900 dark:text-white text-3xl font-extrabold tracking-tight">
-              Teknologi yang Kami Gunakan
+              {t("home.tech.title")}
             </h2>
             <p className="text-slate-500 dark:text-slate-400 mt-3 max-w-md mx-auto text-sm">
-              Kami menggunakan teknologi modern dan terpercaya untuk membangun
-              solusi yang scalable dan maintainable.
+              {t("home.tech.subtitle")}
             </p>
           </motion.div>
         </div>

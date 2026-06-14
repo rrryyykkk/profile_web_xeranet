@@ -11,28 +11,7 @@ interface MilestoneItem {
 export const Timeline = () => {
   const { t } = useTranslation();
 
-  const milestones: MilestoneItem[] = [
-    {
-      year: "2018",
-      title: "Pendirian Perusahaan",
-      desc: "PT XERANET didirikan di Jakarta dengan tim inti beranggotakan 5 insinyur jaringan komputer.",
-    },
-    {
-      year: "2020",
-      title: "Ekspansi Layanan IT",
-      desc: "Meluncurkan divisi pengembangan perangkat lunak kustom untuk web dan aplikasi seluler.",
-    },
-    {
-      year: "2022",
-      title: "Sertifikasi ISO 27001",
-      desc: "Berhasil mendapatkan sertifikasi standar manajemen keamanan informasi internasional.",
-    },
-    {
-      year: "2025",
-      title: "Kemitraan Skala Nasional",
-      desc: "Menjadi mitra IT resmi untuk 3 grup konglomerasi ritel dan infrastruktur di Indonesia.",
-    },
-  ];
+  const milestones = t("about.timeline.list", { returnObjects: true }) as MilestoneItem[];
 
   return (
     <section className="py-24 border-b border-border">
@@ -45,7 +24,7 @@ export const Timeline = () => {
             </span>
           </div>
           <h2 className="text-3xl font-extrabold text-slate-900 dark:text-white">
-            Perjalanan Sejarah Kami
+            {t("about.timeline.subtitle")}
           </h2>
         </div>
 

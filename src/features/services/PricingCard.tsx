@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { motion } from "motion/react";
 import { CheckCircle } from "lucide-react";
-import { type PricingPlan } from "@/types/service.types";
+import type { PricingPlan } from "@/types/service.types";
 
 interface PricingCardProps {
   plan: PricingPlan;
@@ -24,24 +24,24 @@ export const PricingCard = ({ plan, idx }: PricingCardProps) => {
     >
       {plan.isPopular && (
         <span className="absolute top-0 right-8 -translate-y-1/2 bg-primary text-white text-[10px] font-black tracking-widest uppercase px-3 py-1.5 rounded-full shadow-sm">
-          Rekomendasi
+          {t("services.pricing.recommendation")}
         </span>
       )}
 
       <div className="flex flex-col gap-3">
         <span className="text-sm font-bold text-slate-400 uppercase tracking-widest">
-          {plan.name}
+          {t(`services.pricing.plans.${plan.translationKey}.name`)}
         </span>
         <div className="flex items-baseline gap-1 mt-1">
           <span className="text-3xl md:text-4xl font-black text-slate-900 dark:text-white">
-            {plan.price}
+            {t(`services.pricing.plans.${plan.translationKey}.price`)}
           </span>
           <span className="text-sm font-medium text-slate-500">
-            {plan.period}
+            {t(`services.pricing.plans.${plan.translationKey}.period`)}
           </span>
         </div>
         <p className="text-slate-500 dark:text-slate-400 text-sm leading-relaxed mt-2">
-          {plan.description}
+          {t(`services.pricing.plans.${plan.translationKey}.desc`)}
         </p>
       </div>
 
@@ -52,7 +52,12 @@ export const PricingCard = ({ plan, idx }: PricingCardProps) => {
           {t("services.pricing.features")}:
         </span>
         <ul className="flex flex-col gap-3">
-          {plan.features.map((feature, fIdx) => (
+          {/* We assume each plan has 5 or 6 features, we can map over an array returned by t with returnObjects: true */}
+          {(
+            t(`services.pricing.plans.${plan.translationKey}.features`, {
+              returnObjects: true,
+            }) as string[]
+          ).map((feature, fIdx) => (
             <li
               key={fIdx}
               className="flex gap-2.5 items-start text-sm text-slate-600 dark:text-slate-300"

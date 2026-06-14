@@ -6,8 +6,9 @@ export const ServicesHero = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="py-24 bg-white dark:bg-slate-950 border-b border-border">
-      <div className="container mx-auto px-4 md:px-8 max-w-6xl">
+    <section className="py-16 bg-linear-to-b from-slate-50/50 to-white dark:from-slate-900/30 dark:to-slate-950 border-b border-border relative overflow-hidden">
+      <div className="absolute inset-0 bg-[url('/noise.png')] opacity-[0.015] pointer-events-none mix-blend-overlay"></div>
+      <div className="container mx-auto px-4 md:px-8 max-w-6xl relative z-10">
         <div className="text-center mb-16 flex flex-col gap-3">
           <span className="text-sm font-bold uppercase tracking-widest block text-primary">
             {t("services.title")}
